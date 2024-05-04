@@ -1,0 +1,217 @@
+/* INICIO de estilo para tabla  */
+
+table.dataTable thead .sorting {
+    background-color:  rgb(202, 255, 173);
+    font-family: black italic;
+   
+}
+
+table.dataTable thead .sorting_asc {
+    background-color:  rgb(202, 255, 173);
+    font-family: black italic;
+    
+}
+
+table.dataTable td {
+
+    background-color: rgba(255, 246, 0, 0.38);
+    font-family: sans-serif;
+
+}
+
+table.dataTable, table.dataTable th, table.dataTable td {
+    border: solid rgb(255, 188, 113);
+}
+
+body {
+    background-color: rgba(193, 255, 254, 0.47);
+}
+
+nav#estadisticas.navbar.navbar-expand-lg.bg-body-tertiary {
+
+    background-color:rgba(255, 242, 242, 1)!important;
+}
+
+/* FIN de estilo para tabla  */
+
+/* Estilo para inicio  */
+
+h2.text-center.mb-4 {
+    color: rgb(247, 204, 77);
+    font-family: fantasy;
+    margin: 40px;
+}
+
+section.caracteristicas {
+    text-align: center!important;
+    font-size: 18px;  
+    text-transform: uppercase;    
+    line-height: 2;
+    text-shadow: 1px 1px;
+    }
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+
+    background-color:rgba(205, 242, 214, 1)!important;
+}
+
+.navbar-expand-lg{
+    font-style: italic;
+    font-size: 20px;
+    margin-block-end: 20px;      
+}
+
+.navbar-nav { 
+   margin: 0px 0px 0px 40px; 
+ 
+}
+
+.navbar-toggler{
+border: 2px solid #04AA6D;
+box-shadow: 0 5px #666;
+
+
+}
+
+button.navbar-toggler {
+
+    background-color:rgb(207, 255, 254);
+}
+
+
+.inicio {
+        
+    background-image: url("https://www.publicdomainpictures.net/pictures/300000/nahled/seabed-155896303267m.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.imagen {
+    width: 200px;
+    height: 300px;
+    border: 2px solid green; 
+    padding: 5px; 
+}
+
+#video{
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(12, 87, 228); 
+    padding: 5px; 
+}
+
+#mapa {
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(241, 150, 14); 
+    padding: 5px; 
+  }
+
+  
+/* FIN de estilo para inicio  */
+/* estilo contacto */
+
+.navbar-expand-lg{
+    font-style: italic;
+  background-color: color(srgb 0.7607 0.945 0.9402 / 0.67);
+   color: white;
+   padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    margin-block-end: 20px;
+    line-height:15px ;
+       
+}
+ 
+.navbar-nav { 
+    margin: 0px 100px 0px 100px; 
+}
+section {
+text-align: center;
+letter-spacing: 5px       
+}
+
+
+h1 {
+font-family:fantasy; 
+color: rgb(163, 35, 35);
+margin: 40px 0px 30px 0px; 
+}
+
+.bg-body-tertiary  {
+background-color:rgb(236, 251, 242)!important;
+margin-bottom: 20px;
+
+}
+
+.btn-outline-success {
+background-color:white;
+border: 3px solid  rgba(4, 170, 109, 0.54);
+--bs-btn-hover-bg: rgba(203, 237, 199, 0.4);
+--bs-btn-active-bg: rgba(203, 237, 199, 0.4);
+}
+
+.btn-outline-secondary {
+background-color: white;
+border: 3px solid rgba(4, 170, 109, 0.54);
+--bs-btn-hover-bg: rgba(203, 237, 199, 0.4);
+--bs-btn-active-bg: rgba(203, 237, 199, 0.4);
+
+}
+.navbar-toggler{
+background-color: rgba(137, 56, 226, 0.46);
+border-radius: 50%;
+border: 2px solid #04AA6D;
+box-shadow: 0 5px #666;
+transform: translateY(3px);
+}
+
+label {
+display: table-caption;
+
+}
+
+#email{
+width: 60%;
+height: 20px;
+padding: 20px;
+ border-block-color: green;
+resize: none;
+  border:3px solid green;
+  margin: 10px 0px 10px 20px; 
+  
+}
+#mensaje{
+width: 60%;
+height: 20px;
+border-block-color:green;
+resize: none;
+border:3px solid green;
+margin: 10px 0px 10px 20px; 
+}
+
+.site {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-color: rgb(255, 237, 243);
+}
+
+
+.btn-primary {
+
+margin: 40px 100px 0px 0px; 
+color: green;
+background-color: rgba(253, 255, 182, 1);
+border: 5px solid rgba(0, 0, 0, 0.5); 
+font-size: 20px;
+}
+
+/* fin estilo css */
